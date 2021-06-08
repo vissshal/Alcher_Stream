@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Alcher_Stream</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: #fff4fd;
+
+    }
+    .header{
+        background: url("bg.png");
+        background-size: cover;
+        height: 500px;
+
+    }
+    /* Using Inline block we can set all the elements on a single line  */
+    .logo{
+        display: inline-block;
+        position: absolute;
+        left: 90px;
+        top: 35px;
+    }
+    .search{
+        display: inline-block;
+        position: absolute;
+        top: 35px;
+        right: 25%;
+    }
+    .search input{
+        width: 500px;
+        padding: 4px 4px;
+        background: inherit;
+        color: white;
+        font-size: 18px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-style: none;
+        border-bottom: 5px  solid  white;
+        outline-style: none ;
+    }
+    .logo img{
+        height: 35px;
+    }
+    .profile{
+        display: inline-block;
+        position: absolute;
+        right: 90px;
+        top: 35px;
+    }
+    
+    .profile img{
+        height: 35px;
+    }
+    .stroke{
+        text-align: center;
+        position: absolute;
+        top: 140px;
+        left: 25%;
+
+        font-size: 60px;
+        font-family: 'Poppins', sans-serif;
+        color:white ;
+        -webkit-text-fill-color: transparent; 
+        -webkit-text-stroke: 2.5px white ;
+    }
+
+    .content{
+        /* Flex is use for container  */
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        color: #000033;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .list img{
+        height: 250px;
+        width: 250px;
+    }
+    .head{
+        text-align: center;
+        text-decoration:underline;
+        text-shadow: 1.5px 1.5px 1.5px #cb741b;
+        font-size: 40px;
+        color: #000033;
+        font-family: 'Mate SC', serif;
+    }
+    .btn{
+        display: inline-block;
+        position: absolute;
+        top: 350px;
+        margin-left: 40%;
+        height: 70px;
+        width: 300px;
+        padding: 4px  4px;
+        font-size: 16px;
+        background-color: rgb(228, 23, 142);
+        border-radius: 6px;
+        color: white;
+        cursor: pointer;
+    }
+    .tag{
+        position: relative;
+        bottom: -23%;
+        
+        font-size: 28px;
+        color: white;
+        font-family: 'Gugi', cursive;
+    }
+    .tag img{
+        width: 35px; 
+        filter: invert(100%); 
+    }
+    .footer{
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        background-color: #3b3939;
+        
+        height: 200px;
+        width: 100% ;  
+    }
+    .footer img{
+        position: relative;
+        bottom: -17%;
+    }
+</style>
+</head>
+<body>
+    <header class="header">
+
+        <div class="stroke">
+            STREAM ALL THE POPULAR
+            <br>
+            MOVIES ON THE GO
+        </div>
+        <button class="btn">
+            <b>GET STARTED</b>
+        </button>
+        <div class="logo">
+            <img src="logo.svg" alt="Alcher_Stream_Logo">
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Search movie here .....">
+        </div>
+        <div class="profile">
+            <img src="profile.svg" alt="Profile">
+        </div>
+
+
+    </header>
+    <br><br><br>
+
+<h1 class="head">BLOCKBUSTER HITS</h1>
+<br>
+    <div class="content">
+        <div class="list">
+            <img src="wp2162756-hollywood-movie-wallpapers.jpg" alt="THE DARK KNIGHT">
+            <strong><h3>THE DARK KNIGHT</h3></strong>
+        </div>
+        <div class="list">
+            <img src="wp2162759-hollywood-movie-wallpapers.jpg" alt="DRACULA">
+            <strong><h3>DRACULA</h3></strong>
+        </div>
+        <div class="list">
+            <img src="wp2162760-hollywood-movie-wallpapers.jpg" alt="IRON MAN 3">
+            <strong><h3>IRON MAN 3</h3></strong>
+        </div>
+        <div class="list">
+            <img src="wp2162811-hollywood-movie-wallpapers.jpg" alt="SPIDER MAN" >
+            <strong><h3>SPIDER MAN</h3></strong>
+        </div>
+    </div>
+    <br>
+
+<h1 class="head">BLOCKBUSTER HITS</h1>
+<br>
+    <div class="content">
+        
+        <div class="list">
+            <img src="a-hidden-life-poster.jpg" alt="a-hidden-life-poster">
+            <strong><h3>A HIDDEN LIFE</h3></strong>
+        </div>
+        <div class="list">
+            <img src="JokerPoster1200_5ca3c435318d42.29270548.jpg" alt="JokerPoster1200_5ca3c435318d42.29270548">
+            <strong><h3>JOKER</h3></strong>
+        </div>
+        <div class="list">
+            <img src="parasite.jpg" alt="parasite">
+            <strong><h3>PARASITE</h3></strong>
+        </div>
+        <div class="list">
+            <img src="wp1934769-hollywood-movie-wallpapers.jpg" alt="Pirates of the Caribbean" >
+            <strong><h3>PIRATES OF THE CARIBBEAN</h3></strong>
+        </div>
+    </div> 
+    <i class="fa-brands fa-facebook-f"></i> 
+    <br><br><br><br><br><br>
+    <footer class="footer">
+        <img src="fb.jpg" alt="connect with us">
+        <div class="tag">
+            <img src="icons8.png" alt="copyright">2021 AlcherStream
+        </div> 
+    </footer>
+
+</body>
+</html>
